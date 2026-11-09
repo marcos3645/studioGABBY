@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio Gaby Barbosa | Manicure, pedicure e nail art</title>
+<meta name="description" content="Manicure, pedicure, gel, alongamento e nail art com hora marcada. Veja os preços, escolha o dia e agende pelo WhatsApp.">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding-left:24px;padding-right:24px;box-sizing:border-box}
+.serif{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em}
+.wa{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;border-radius:999px;background:#25D366;color:#06210f;font-weight:600;font-size:17px;box-sizing:border-box;text-align:center}
+.wa:hover{background:#42e07f}
+.wa-sm{min-height:44px;padding:0 20px;font-size:15px}
+.ghost{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;border-radius:999px;border:1.5px solid #2b1621;color:#2b1621;font-weight:500;font-size:16px;box-sizing:border-box}
+.ghost:hover{background:#2b1621;color:#fbf3ef}
+.nav a{display:inline-flex;align-items:center;min-height:44px;color:#5e4753;font-size:15px}
+.nav a:hover{color:#2b1621}
+.row{display:flex;flex-direction:column;gap:6px;padding:20px 0;border-bottom:1px solid #e6d3d0}
+.more{display:inline-flex;align-items:center;min-height:44px;font-weight:600;font-size:15px;color:#a02f59;border-bottom:2px solid transparent;align-self:flex-start}
+.more:hover{border-bottom-color:#a02f59}
+.fab{position:fixed;right:16px;bottom:16px;z-index:20;box-shadow:0 8px 24px rgba(43,22,33,0.3)}
+.day{display:flex;align-items:center;justify-content:center;width:100%;height:48px;border-radius:12px;border:0;background:transparent;color:#2b1621;font-family:inherit;font-size:16px;font-weight:500;cursor:pointer;padding:0}
+.day:hover{background:#f4dcdc}
+.day:disabled{color:#b9a3ad;cursor:not-allowed;background:transparent}
+.day.sel{background:#a02f59;color:#ffffff;font-weight:600}
+.day.sel:hover{background:#8a2649}
+.slot{display:inline-flex;align-items:center;justify-content:center;min-width:84px;min-height:44px;padding:0 14px;border-radius:999px;border:1.5px solid #2b1621;background:transparent;color:#2b1621;font-family:inherit;font-size:15px;font-weight:500;cursor:pointer;box-sizing:border-box}
+.slot:hover{background:#f4dcdc}
+.slot.sel{background:#a02f59;border-color:#a02f59;color:#ffffff;font-weight:600}
+.slot.sel:hover{background:#8a2649}
+.cal-nav{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:999px;border:1.5px solid #2b1621;background:transparent;color:#2b1621;cursor:pointer;padding:0}
+.cal-nav:hover{background:#f4dcdc}
+.cal-nav:disabled{opacity:0.35;cursor:not-allowed;background:transparent}
+.day:focus-visible,.slot:focus-visible,.cal-nav:focus-visible{outline:3px solid #2b1621;outline-offset:2px}
+</style>
+</head>
+<body>
+
+
+<div style="background:#fbf3ef;color:#2b1621;min-height:100vh">
+
+  <!-- Topo -->
+  <header class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-top:16px;padding-bottom:16px">
+    
+    <a href="#inicio" class="serif" style="font-size:26px;min-height:44px;display:inline-flex;align-items:center">Studio <span style="color:#a02f59;margin-left:7px">Gaby Barbosa</span></a>
+    <nav class="nav" style="display:flex;flex-wrap:wrap;gap:4px 22px;align-items:center">
+      <a href="#servicos">Serviços e preços</a>
+      <a href="#como-funciona">Como agendar</a>
+      <a href="#agendar">Escolher dia</a>
+      <a href="#localizacao">Localização</a>
+      <a href="https://wa.me/5581987341095?text=Ol%C3%A1%21%20Quero%20agendar%20um%20hor%C3%A1rio." class="wa wa-sm" style="color:#06210f;margin-left:8px">Agendar</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;gap:48px 64px;padding-top:48px;padding-bottom:96px">
+    <div style="flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:24px">
+      <div style="font-size:14px;letter-spacing:0.14em;text-transform:uppercase;color:#a02f59;font-weight:600">Manicure, pedicure e nail art</div>
+      <h1 class="serif" style="margin:0;font-size:clamp(46px,7vw,88px);line-height:1.02">Unhas feitas com calma e capricho.</h1>
+      <p style="margin:0;font-size:19px;line-height:1.6;color:#5e4753;max-width:520px">Esmaltação, gel, alongamento e decoração, tudo com hora marcada para você não esperar. Escolha o serviço e chame no WhatsApp.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:8px">
+        <a href="https://wa.me/5581987341095?text=Ol%C3%A1%21%20Quero%20agendar%20um%20hor%C3%A1rio." class="wa">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a href="#servicos" class="ghost">Ver preços</a>
+      </div>
+      <div style="font-size:15px;color:#6b5560">Atendimento de terça a sábado, só com horário marcado.</div>
+    </div>
+
+    <div style="flex:0 1 400px;min-width:0;margin:0 auto;display:flex;justify-content:center">
+      <div role="img" aria-label="Ilustração de cinco unhas pintadas em tons de rosa, vinho e nude" style="width:100%;max-width:380px;height:380px;border-radius:200px 200px 40px 40px;background:#f4dcdc;display:flex;align-items:flex-end;justify-content:center;gap:8px;padding:0 12px 48px;box-sizing:border-box">
+        <div style="width:52px;height:140px;border-radius:50% 50% 16px 16px / 62% 62% 16px 16px;background:linear-gradient(100deg,#f7c6d2 0%,#ee9db3 55%,#e68aa5 100%);box-shadow:inset 6px 0 10px rgba(255,255,255,0.45)"></div>
+        <div style="width:58px;height:190px;border-radius:50% 50% 16px 16px / 62% 62% 16px 16px;background:linear-gradient(100deg,#9c2a4c 0%,#7b1e3a 60%,#651631 100%);box-shadow:inset 6px 0 10px rgba(255,255,255,0.3)"></div>
+        <div style="width:60px;height:225px;border-radius:50% 50% 16px 16px / 62% 62% 16px 16px;background:linear-gradient(100deg,#f3d8c8 0%,#e6c0aa 60%,#d9b09a 100%);box-shadow:inset 6px 0 10px rgba(255,255,255,0.5)"></div>
+        <div style="width:58px;height:200px;border-radius:50% 50% 16px 16px / 62% 62% 16px 16px;background:linear-gradient(100deg,#fff7f1 0%,#f2e4da 60%,#e6d3c7 100%);box-shadow:inset 6px 0 10px rgba(255,255,255,0.8)"></div>
+        <div style="width:50px;height:150px;border-radius:50% 50% 16px 16px / 62% 62% 16px 16px;background:linear-gradient(100deg,#e7a3b6 0%,#d4809a 60%,#c26c88 100%);box-shadow:inset 6px 0 10px rgba(255,255,255,0.35)"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços e preços -->
+  <section id="servicos" style="background:#fffaf7;padding-top:88px;padding-bottom:96px;border-top:1px solid #efddd9;border-bottom:1px solid #efddd9">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:40px">
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:640px">
+        <h2 class="serif" style="margin:0;font-size:clamp(36px,4.6vw,56px);line-height:1.05">Serviços e preços</h2>
+        <p style="margin:0;font-size:18px;line-height:1.55;color:#5e4753">Toque em agendar e o WhatsApp abre com o serviço já escolhido na mensagem.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px 64px;align-items:start">
+
+        <div>
+          <h3 class="serif" style="margin:0;font-size:26px;color:#a02f59;padding-bottom:6px;border-bottom:2px solid #2b1621">Mãos</h3>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Manicure</span><span class="serif" style="font-size:24px">R$ 25</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Cutilagem, lixa e esmaltação comum. Cerca de 45 min.</div>
+            <a class="more" href="#agendar" data-service="Manicure">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Esmaltação em gel</span><span class="serif" style="font-size:24px">R$ 45</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Cor firme e brilho que dura semanas. Cerca de 1h.</div>
+            <a class="more" href="#agendar" data-service="Esmaltação em gel">Agendar</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="serif" style="margin:0;font-size:26px;color:#a02f59;padding-bottom:6px;border-bottom:2px solid #2b1621">Pés</h3>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Pedicure</span><span class="serif" style="font-size:24px">R$ 25</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Cutilagem, lixa, hidratação e esmaltação. Cerca de 50 min.</div>
+            <a class="more" href="#agendar" data-service="Pedicure">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Mão e pé</span><span class="serif" style="font-size:24px">R$ 50</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Os dois serviços no mesmo dia, por um valor menor que separados.</div>
+            <a class="more" href="#agendar" data-service="Mão e pé">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Spa dos pés</span><span class="serif" style="font-size:24px">R$ 25</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Esfoliação, máscara hidratante e massagem, com pedicure incluída.</div>
+            <a class="more" href="#agendar" data-service="Spa dos pés">Agendar</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="serif" style="margin:0;font-size:26px;color:#a02f59;padding-bottom:6px;border-bottom:2px solid #2b1621">Alongamento e decoração</h3>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Unha em gel tips</span><span class="serif" style="font-size:24px">R$ 70</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Alongamento com tips e gel, no formato e tamanho que você escolher.</div>
+            <a class="more" href="#agendar" data-service="Unha em gel tips">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Unha em gel fibra</span><span class="serif" style="font-size:24px">Consulte</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Alongamento com fibra e gel, no formato e tamanho que você escolher.</div>
+            <a class="more" href="#agendar" data-service="Unha em gel fibra">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Alongamento em fibra</span><span class="serif" style="font-size:24px">R$ 80</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Formato e tamanho de acordo com o que você escolher. Cerca de 2h30.</div>
+            <a class="more" href="#agendar" data-service="Alongamento em fibra">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Manutenção do alongamento na tips</span><span class="serif" style="font-size:24px;white-space:nowrap">R$ 60</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Reposição na base e ajuste da cor. Cerca de 1h45.</div>
+            <a class="more" href="#agendar" data-service="Manutenção do alongamento na tips">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Manutenção do alongamento na fibra</span><span class="serif" style="font-size:24px;white-space:nowrap">R$ 80</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Reposição na base e ajuste da cor no alongamento em fibra.</div>
+            <a class="more" href="#agendar" data-service="Manutenção do alongamento na fibra">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Blindagem</span><span class="serif" style="font-size:24px">R$ 55</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Camada de proteção para unha natural que quebra fácil.</div>
+            <a class="more" href="#agendar" data-service="Blindagem">Agendar</a>
+          </div>
+          <div class="row">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><span style="font-size:19px;font-weight:600">Nail art</span><span class="serif" style="font-size:24px">a partir de R$ 5</span></div>
+            <div style="font-size:15px;line-height:1.5;color:#5e4753">Valor por unha. Francesinha, desenho à mão, pedrinhas e glitter.</div>
+            <a class="more" href="#agendar" data-service="Nail art">Agendar</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Como agendar -->
+  <section id="como-funciona" class="wrap" style="padding-top:96px;padding-bottom:96px;display:flex;flex-wrap:wrap;gap:40px 72px;align-items:flex-start">
+    <div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:24px">
+      <h2 class="serif" style="margin:0;font-size:clamp(36px,4.6vw,56px);line-height:1.05">Agendar leva um minuto</h2>
+      <p style="margin:0;font-size:18px;line-height:1.55;color:#5e4753">Sem formulário e sem cadastro. A conversa acontece direto no seu WhatsApp.</p>
+      <div>
+        <a href="https://wa.me/5581987341095?text=Ol%C3%A1%21%20Quero%20agendar%20um%20hor%C3%A1rio." class="wa">Marcar meu horário</a>
+      </div>
+    </div>
+    <div style="flex:1 1 420px;min-width:0;display:flex;flex-direction:column">
+      <div style="display:flex;gap:20px;padding:22px 0;border-top:1px solid #e6d3d0">
+        <div class="serif" style="font-size:40px;color:#a02f59;min-width:56px;line-height:1">1</div>
+        <div><div style="font-size:20px;font-weight:600;margin-bottom:4px">Toque em agendar</div><div style="font-size:16px;line-height:1.5;color:#5e4753">O WhatsApp abre com a mensagem pronta. É só enviar.</div></div>
+      </div>
+      <div style="display:flex;gap:20px;padding:22px 0;border-top:1px solid #e6d3d0">
+        <div class="serif" style="font-size:40px;color:#a02f59;min-width:56px;line-height:1">2</div>
+        <div><div style="font-size:20px;font-weight:600;margin-bottom:4px">Combine dia e horário</div><div style="font-size:16px;line-height:1.5;color:#5e4753">Diga o que quer fazer e quando fica melhor para você. Se tiver uma foto de referência, mande junto.</div></div>
+      </div>
+      <div style="display:flex;gap:20px;padding:22px 0;border-top:1px solid #e6d3d0;border-bottom:1px solid #e6d3d0">
+        <div class="serif" style="font-size:40px;color:#a02f59;min-width:56px;line-height:1">3</div>
+        <div><div style="font-size:20px;font-weight:600;margin-bottom:4px">Venha relaxar</div><div style="font-size:16px;line-height:1.5;color:#5e4753">Seu horário fica reservado no seu nome. Precisando remarcar, avise pela mesma conversa.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calendário -->
+  <section id="agendar" style="background:#fffaf7;padding-top:88px;padding-bottom:96px;border-top:1px solid #efddd9;border-bottom:1px solid #efddd9">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;gap:40px 64px;align-items:flex-start">
+
+      <div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:24px">
+        <h2 class="serif" style="margin:0;font-size:clamp(36px,4.6vw,56px);line-height:1.05">Escolha o dia do seu horário</h2>
+        <p style="margin:0;font-size:18px;line-height:1.55;color:#5e4753">Atendemos de terça a sábado. Marque o dia e a hora no calendário e envie o pedido pelo WhatsApp. O horário fica reservado quando a gente responder confirmando.</p>
+
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <label for="servico" style="font-size:14px;letter-spacing:0.1em;text-transform:uppercase;color:#5e4753;font-weight:600">Serviço (opcional)</label>
+          <select id="servico" style="min-height:52px;padding:0 16px;border-radius:12px;border:1.5px solid #2b1621;background:#ffffff;color:#2b1621;font-family:inherit;font-size:16px"></select>
+        </div>
+
+        <div style="background:#fbf3ef;border:1px solid #e6d3d0;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:6px">
+          <div style="font-size:14px;letter-spacing:0.1em;text-transform:uppercase;color:#5e4753;font-weight:600">Seu pedido</div>
+          <div id="summaryDay" style="font-size:20px;font-weight:600;line-height:1.35">Nenhum dia escolhido</div>
+          <div id="summaryTime" style="font-size:16px;color:#5e4753;min-height:22px"></div>
+        </div>
+
+        <div>
+          <a id="calWa" href="#" class="wa" target="_blank" rel="noopener">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
+            <span id="ctaLabel">Agendar pelo WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <div style="flex:1 1 420px;min-width:0;max-width:560px;background:#ffffff;border:1px solid #e6d3d0;border-radius:20px;padding:24px;box-sizing:border-box;display:flex;flex-direction:column;gap:16px">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+          <button type="button" class="cal-nav" id="prevMonth" aria-label="Mês anterior">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
+          </button>
+          <div id="monthTitle" class="serif" style="font-size:24px;text-align:center" aria-live="polite"></div>
+          <button type="button" class="cal-nav" id="nextMonth" aria-label="Próximo mês">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+          </button>
+        </div>
+        <div id="weekdays" style="display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:2px"></div>
+        <div id="cells" style="display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:2px"></div>
+        <div style="display:flex;flex-direction:column;gap:12px;padding-top:16px;border-top:1px solid #e6d3d0">
+          <div style="font-size:14px;letter-spacing:0.1em;text-transform:uppercase;color:#5e4753;font-weight:600">Horários</div>
+          <div id="slotMsg" style="font-size:16px;line-height:1.5;color:#5e4753">Escolha um dia no calendário para ver os horários.</div>
+          <div id="slots" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Localização -->
+  <section id="localizacao" style="background:#f4dcdc;padding-top:88px;padding-bottom:96px">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;gap:40px 64px;align-items:stretch">
+      <div style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:24px">
+        <h2 class="serif" style="margin:0;font-size:clamp(36px,4.6vw,56px);line-height:1.05">Onde fica</h2>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div style="font-size:14px;letter-spacing:0.1em;text-transform:uppercase;color:#5e4753;font-weight:600">Endereço</div>
+          <div class="js-address" style="font-size:21px;line-height:1.4"></div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div style="font-size:14px;letter-spacing:0.1em;text-transform:uppercase;color:#5e4753;font-weight:600">Horário</div>
+          <div style="font-size:18px;line-height:1.6">Terça a sexta, 9h às 19h<br>Sábado, 8h às 16h<br>Domingo e segunda, fechado</div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:4px">
+          <a href="#" class="ghost" id="mapsBtn" target="_blank" rel="noopener">Abrir no Google Maps</a>
+          <a href="https://wa.me/5581987341095?text=Ol%C3%A1%21%20Quero%20agendar%20um%20hor%C3%A1rio." class="wa">Agendar pelo WhatsApp</a>
+        </div>
+      </div>
+      <a href="#" id="mapsCard" target="_blank" rel="noopener" aria-label="Abrir a localização no Google Maps" style="flex:1 1 380px;min-height:320px;border-radius:20px;background-color:#fffaf7;color:#2b1621;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:32px;box-sizing:border-box;text-align:center;background-image:linear-gradient(#efddd9 1px,transparent 1px),linear-gradient(90deg,#efddd9 1px,transparent 1px);background-size:40px 40px">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#a02f59" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+        <div class="serif" style="font-size:28px">Ver no mapa</div>
+        <div style="font-size:15px;color:#5e4753;max-width:280px;line-height:1.5">Abre o trajeto no Google Maps a partir de onde você estiver.</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Chamada final -->
+  <section style="background:#2b1621;color:#fbf3ef;padding-top:96px;padding-bottom:96px">
+    <div class="wrap" style="display:flex;flex-direction:column;align-items:flex-start;gap:28px">
+      <h2 class="serif" style="margin:0;font-size:clamp(38px,5.6vw,72px);line-height:1.05;max-width:780px">Seu horário está a uma mensagem de distância.</h2>
+      <a href="https://wa.me/5581987341095?text=Ol%C3%A1%21%20Quero%20agendar%20um%20hor%C3%A1rio." class="wa" style="min-height:60px;font-size:19px;padding:0 36px">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
+        Agendar agora
+      </a>
+    </div>
+  </section>
+
+  <footer style="background:#2b1621;color:#b9a3ad">
+    <div class="wrap" style="padding-top:24px;padding-bottom:32px;border-top:1px solid #473240;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-size:14px">
+      <div>Studio Gaby Barbosa</div>
+      <div class="js-address"></div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5581987341095?text=Ol%C3%A1%21%20Quero%20agendar%20um%20hor%C3%A1rio." class="wa fab" aria-label="Agendar pelo WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
+    Agendar
+  </a>
+
+</div>
+
+<script>
+(function () {
+  // ---- CONFIGURAÇÃO: edite aqui ----
+  var WHATSAPP = "5581987341095";
+  var ADDRESS = "";   // ex.: "Rua X, 123, Bairro, Recife - PE"
+  // ----------------------------------
+  var MONTHS = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+  var DAYS = ["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"];
+  var WD = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+  var SERVICES = ["Manicure", "Esmaltação em gel", "Pedicure", "Mão e pé", "Spa dos pés", "Unha em gel tips", "Unha em gel fibra", "Alongamento em fibra", "Manutenção do alongamento na tips", "Manutenção do alongamento na fibra", "Blindagem", "Nail art"];
+
+  var now = new Date();
+  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var st = { vy: today.getFullYear(), vm: today.getMonth(), sel: null, time: null, service: "" };
+
+  function $(id) { return document.getElementById(id); }
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  // endereço
+  var addrNodes = document.querySelectorAll(".js-address");
+  var addrText = ADDRESS || "Endereço combinado pelo WhatsApp";
+  for (var i = 0; i < addrNodes.length; i++) addrNodes[i].textContent = addrText;
+  var mapsUrl = ADDRESS ? "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(ADDRESS) : "https://wa.me/" + WHATSAPP;
+  if ($("mapsBtn")) $("mapsBtn").href = mapsUrl;
+  if ($("mapsCard")) $("mapsCard").href = mapsUrl;
+
+  // serviços no select
+  var select = $("servico");
+  var first = el("option", null, "Escolher serviço"); first.value = ""; select.appendChild(first);
+  SERVICES.forEach(function (s) { var o = el("option", null, s); o.value = s; select.appendChild(o); });
+  select.addEventListener("change", function () { st.service = select.value; render(); });
+
+  // botões "Agendar" dos serviços
+  var links = document.querySelectorAll("[data-service]");
+  Array.prototype.forEach.call(links, function (a) {
+    a.addEventListener("click", function () {
+      st.service = a.getAttribute("data-service");
+      select.value = st.service;
+      render();
+    });
+  });
+
+  // dias da semana
+  WD.forEach(function (w) {
+    var d = el("div", null, w);
+    d.style.cssText = "text-align:center;font-size:13px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#5e4753;padding:6px 0";
+    $("weekdays").appendChild(d);
+  });
+
+  $("prevMonth").addEventListener("click", function () {
+    if (st.vm === 0) { st.vy--; st.vm = 11; } else { st.vm--; }
+    render();
+  });
+  $("nextMonth").addEventListener("click", function () {
+    if (st.vm === 11) { st.vy++; st.vm = 0; } else { st.vm++; }
+    render();
+  });
+
+  function render() {
+    var vy = st.vy, vm = st.vm;
+    $("monthTitle").textContent = MONTHS[vm] + " " + vy;
+    var monthsAhead = (vy - today.getFullYear()) * 12 + (vm - today.getMonth());
+    $("prevMonth").disabled = monthsAhead <= 0;
+    $("nextMonth").disabled = monthsAhead >= 5;
+
+    var lead = new Date(vy, vm, 1).getDay();
+    var dim = new Date(vy, vm + 1, 0).getDate();
+    var total = Math.ceil((lead + dim) / 7) * 7;
+    var grid = $("cells");
+    grid.textContent = "";
+    for (var i = 0; i < total; i++) {
+      var dnum = i - lead + 1;
+      if (dnum < 1 || dnum > dim) { var blank = el("div"); blank.style.height = "48px"; grid.appendChild(blank); continue; }
+      (function (dnum) {
+        var d = new Date(vy, vm, dnum);
+        var dow = d.getDay();
+        var off = !(dow >= 2 && dow <= 6) || d < today;
+        var iso = vy + "-" + pad(vm + 1) + "-" + pad(dnum);
+        var selected = !off && st.sel === iso;
+        var b = el("button", "day" + (selected ? " sel" : ""), String(dnum));
+        b.type = "button";
+        var label = dnum + " de " + MONTHS[vm].toLowerCase() + " de " + vy;
+        if (off) { b.disabled = true; b.setAttribute("aria-label", label + ", indisponível"); }
+        else {
+          b.setAttribute("aria-pressed", selected ? "true" : "false");
+          b.setAttribute("aria-label", label + (selected ? ", selecionado" : ""));
+          b.addEventListener("click", function () { st.sel = iso; st.time = null; render(); });
+        }
+        grid.appendChild(b);
+      })(dnum);
+    }
+
+    var selDate = null;
+    if (st.sel) { var p = st.sel.split("-").map(Number); selDate = new Date(p[0], p[1] - 1, p[2]); }
+    var slotsBox = $("slots");
+    slotsBox.textContent = "";
+    var msgBox = $("slotMsg");
+    var count = 0;
+    if (!selDate) {
+      msgBox.textContent = "Escolha um dia no calendário para ver os horários.";
+    } else {
+      var dow2 = selDate.getDay();
+      var from = dow2 === 6 ? 8 : 9, to = dow2 === 6 ? 15 : 18;
+      var isToday = selDate.getTime() === today.getTime();
+      for (var h = from; h <= to; h++) {
+        if (isToday && h <= now.getHours()) continue;
+        (function (h) {
+          var s = el("button", "slot" + (st.time === h ? " sel" : ""), pad(h) + ":00");
+          s.type = "button";
+          s.setAttribute("aria-pressed", st.time === h ? "true" : "false");
+          s.addEventListener("click", function () { st.time = h; render(); });
+          slotsBox.appendChild(s);
+          count++;
+        })(h);
+      }
+      msgBox.textContent = count === 0 ? "Não há mais horários neste dia. Escolha outra data." : "";
+    }
+
+    var dayLabel = selDate ? DAYS[selDate.getDay()] + ", " + pad(selDate.getDate()) + "/" + pad(selDate.getMonth() + 1) + "/" + selDate.getFullYear() : "";
+    var timeLabel = st.time != null ? pad(st.time) + ":00" : "";
+    $("summaryDay").textContent = selDate ? dayLabel.charAt(0).toUpperCase() + dayLabel.slice(1) : "Nenhum dia escolhido";
+    $("summaryTime").textContent = st.time != null ? "às " + timeLabel : (selDate ? "Escolha um horário" : "");
+    $("ctaLabel").textContent = selDate && st.time != null ? "Enviar pedido pelo WhatsApp" : "Agendar pelo WhatsApp";
+
+    var msg = "Olá! Quero agendar " + (st.service ? st.service : "um horário");
+    if (selDate) msg += " para " + dayLabel;
+    if (st.time != null) msg += " às " + timeLabel;
+    msg += ".";
+    $("calWa").href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg);
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
